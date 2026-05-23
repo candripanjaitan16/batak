@@ -13,8 +13,7 @@ import Peta from "./pages/Peta";
 
 function App() {
   return (
-    // Tambahkan basename="/batak" di sini supaya React Router tahu jalurnya di GitHub Pages
-    <Router basename="/batak">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Beranda />} />
