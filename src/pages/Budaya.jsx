@@ -6,6 +6,10 @@ import ImgUlos from "../assets/ulos.png";
 import ImgGondang from "../assets/gondang.png";
 import ImgGorga from "../assets/gorga.png";
 import ImgTortor from "../assets/tortor.png";
+import ImgTunggalPanaluan from "../assets/tunggalpanaluan.png";
+import ImgSastraLisan from "../assets/sastralisan.png";
+import ImgPakaianAdat from "../assets/pakaianadat.png";
+import ImgOlahragaKuno from "../assets/olahragakuno.png";
 
 function Budaya() {
   const navigate = useNavigate();
@@ -329,6 +333,14 @@ function Budaya() {
           />
 
           <ContentBlock
+            imageSrc={ImgTunggalPanaluan}
+            title="Tongkat Mahakarya Mistis Tunggal Panaluan"
+            shortText="Tunggal Panaluan adalah tongkat sakral milik Datu (pendeta adat suku Batak kuno) yang dipahat penuh dengan figur manusia dan hewan mistis bertumpuk."
+            fullText="Tongkat magis ini berbahan dasar kayu pohon berhala pilihan. Menurut sistem kepercayaan purba Toba, Tunggal Panaluan bukan sekadar simbol jabatan struktural tertinggi, melainkan media pengendali alam supernatural. Melalui ritual sesaji tertentu, tongkat ini digunakan datu untuk mendatangkan hujan di musim kemarau panjang, menahan wabah penyakit menular, menghalau kutukan, hingga membakar semangat prajurit sebelum berangkat medan peperangan teritorial huta."
+            delay="0.45s"
+          />
+
+          <ContentBlock
             imageSrc={ImgGondang}
             title="Ansambel Musik Gondang Sabangunan"
             shortText="Gondang Sabangunan adalah seperangkat instrumen musik perkusi dan tiup tradisional Batak Toba yang dimainkan dalam upacara adat, ritual keagamaan kuno, maupun pesta riang gembira masyarakat."
@@ -345,11 +357,35 @@ function Budaya() {
           />
 
           <ContentBlock
+            imageSrc={ImgSastraLisan}
+            title="Seni Sastra Tradisional & Turiturian Lisan"
+            shortText="Masyarakat Batak merawat tradisi penuturan cerita berirama serta perumpamaan puitis yang diwariskan lisan lintas generasi melalui perantara lirik luhur."
+            fullText="Turiturian merupakan bentuk epik sastra lisan Batak yang menceritakan petualangan para pahlawan mitologis, silsilah marga, hingga asal-mula dunia Toba. Selain itu, terdapat tradisi 'Umpasa' (pantun ekspresi doa restu adat) yang wajib diucapkan dalam upacara pernikahan atau syukuran, serta seni 'Andung' yakni ratapan bahasa puitis bernada sedih tinggi yang dibawakan dalam ritual perkabungan keluarga dekat."
+            delay="0.65s"
+          />
+
+          <ContentBlock
             imageSrc={ImgTortor}
             title="Tari Tortor & Gerakan Estetika Ritual"
             shortText="Tortor merupakan tarian seremonial masyarakat Batak yang gerakannya seirama dengan ketukan Gondang. Seni tari ini memiliki posisi esensial dalam mengekspresikan nilai sosial."
             fullText="Gerakan dasar tari Tortor berpusat penuh pada dinamika jari-jari tangan yang merapat khidmat, gerakan melambai perlahan naik-turun, serta hentakan tumit kaki yang ritmis konstan mengikuti tempo pukulan drum Taganing. Setiap penari Tortor wajib menyampirkan kain ulos sesuai aturan kedudukan adatnya. Tarian ini dikelompokkan menjadi beberapa jenis fungsional, seperti Tortor Pangurason yang berfungsi sebagai ritual pembersih area dari pengaruh roh jahat sebelum upacara dimulai; Tortor Sipitu Cawan yang dibawakan secara langka oleh penari suci dengan keseimbangan membawa cawan air di atas kepala mereka; serta Tortor Haroan Bolon untuk menyambut rombongan tamu kehormatan. Gerakan telapak tangan yang menghadap ke atas luar melambangkan doa pasrah memohon limpahan berkat Sang Pencipta."
             delay="0.7s"
+          />
+
+          <ContentBlock
+            imageSrc={ImgPakaianAdat}
+            title="Kelengkapan Busana Adat & Kemegahan Sortali"
+            shortText="Pakaian adat Batak Toba mengombinasikan lilitan kain ulos premium terbaik dengan hiasan logam mulia bernilai seni tinggi."
+            fullText="Selain selempang ulos, komponen paling vital dalam busana agung Batak adalah Sortali, sebuah ikat kepala merah berlapis emas atau perak padat yang melambangkan kesucian janji, martabat kehormatan, serta kemakmuran ekonomi keluarga. Untuk pria, busana dilengkapi topi kain berbentuk kerucut bernama Ampar-ampar, sementara wanita menyanggul rambut rapi dengan sematan tusuk konde kuningan kuno yang megah saat menghadiri pagelaran adat."
+            delay="0.75s"
+          />
+
+          <ContentBlock
+            imageSrc={ImgOlahragaKuno}
+            title="Seni Bela Diri Mossak & Permainan Margala"
+            shortText="Peradaban Batak Toba melahirkan sistem ketangkasan fisik perang pertahanan diri lewat seni bela diri khas serta permainan taktis."
+            fullText="Mossak adalah seni bela diri pencak silat kuno suku Batak yang di masa lalu hanya diajarkan secara rahasia di lingkungan keluarga ksatria untuk menjaga wilayah kekuasaan marga. Di sisi rekreasi sosial, masyarakat melestarikan permainan ketangkasan 'Margala', sebuah olahraga komunal mengandalkan kelincahan garis pertahanan kaki dan kekompakan tim, mencerminkan tingginya nilai solidaritas sosiologis pemuda-pemudi Toba."
+            delay="0.8s"
           />
         </div>
 

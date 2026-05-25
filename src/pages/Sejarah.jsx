@@ -6,6 +6,10 @@ import ImgDalihan from "../assets/dalihan.png";
 import ImgSisingamangaraja from "../assets/sisingamangaraja.png";
 import ImgPustaha from "../assets/pustaha.png";
 import ImgModernisasi from "../assets/modernisasi.png";
+import ImgSamosirLegenda from "../assets/samosirlegenda.png";
+import ImgMakamSidabutar from "../assets/makamsidabutar.png";
+import ImgBatuPersidangan from "../assets/batupersidangan.png";
+import ImgLembahBakkara from "../assets/lembahbakkara.png";
 
 function Sejarah() {
   const navigate = useNavigate();
@@ -329,10 +333,18 @@ function Sejarah() {
           />
 
           <ContentBlock
+            imageSrc={ImgSamosirLegenda}
+            title="Pembentukan Kaldera Toba & Legenda Pulau Samosir"
+            shortText="Kawasan Danau Toba menyimpan harmoni menakjubkan antara catatan geologi dunia yang dahsyat bit mitologi lokal tentang kesetiaan serta sumpah janji manusia."
+            fullText="Secara ilmiah, Danau Toba terbentuk akibat letusan supervolcano mahadahsyat sekitar 74.000 tahun lalu yang sempat mengubah iklim bumi secara ekstrem. Di sisi lain, masyarakat lokal merawat warisan budaya berupa kisah fiksi legendaris tentang pemuda bernama Toba dan istrinya yang merupakan jelmaan ikan emas. Akibat pelanggaran sumpah janji Toba yang mengungkit asal-usul istrinya kepada anak mereka, Samosir, bencana air bah dahsyat menenggelamkan lembah tersebut dan menyisakan daratan tengah yang kini kita kenal sebagai Pulau Samosir serta gundukan tebing legendaris Batu Gantung di Parapat."
+            delay="0.45s"
+          />
+
+          <ContentBlock
             imageSrc={ImgSisingamangaraja}
             title="Era Kepemimpinan & Heroisme Sisingamangaraja XII"
             shortText="Sejarah panjang peradaban Batak mencatat perlawanan bersenjata paling gigih menentang upaya kolonisasi asing. Raja Sisingamangaraja XII memimpin Perang Batak selama tiga dekade penuh demi menjaga kemerdekaan tanah Toba."
-            fullText="Sisingamangaraja XII bukan sekadar penguasa monarki sekuler, melainkan pemimpin spiritual tertinggi yang memegang teguh amanah kepercayaan kuno. Ketika pihak kolonial Belanda mulai memaksakan dominasi politik dan jalur monopoli perdagangan ke wilayah pedalaman Toba pada akhir abad ke-19, beliau mengobarkan perang gerilya yang dahsyat (1877–1907). Dengan memanfaatkan benteng pertahanan alam pegunungan batu yang curam serta kecintaan rakyat yang loyal, pasukan Batak berhasil menyulitkan taktik militer modern Belanda. Perjuangan tanpa lelah tersebut akhirnya berakhir secara tragis saat beliau gugur dalam pertempuran di pedalaman Dairi pada tahun 1907, menandai akhir dari kedaulatan politik independen tanah Batak."
+            fullText="Sisingamangaraja XII bukan sekadar penguasa monarki sekuler, melainkan pemimpin spiritual tertinggi yang memegang teguh amanah kepercayaan kuno. Ketika pihak kolonial Belanda mulai memaksakan dominasi politik dan jalur monopoli perdagangan ke wilayah pedalaman Toba pada akhir abad ke-19, beliau mengobarkan perang gerilya yang dahsyat (1877–1907). Dengan memanfaatkan benteng pertahanan alam pegunungan batu yang curam serta kecintaan rakyat yang loyal, pasukan Batak berhasil menyulitkan taktik militer modern Belanda. Perjuangan tanpa lelah tersebut akhirnya berakhir secara tragic saat beliau gugur dalam pertempuran di pedalaman Dairi pada tahun 1907, marking akhir kedaulatan independen tanah Batak."
             delay="0.5s"
           />
 
@@ -340,8 +352,16 @@ function Sejarah() {
             imageSrc={ImgPustaha}
             title="Sistem Literasi Aksara Kuno & Pustaha Laklak"
             shortText="Suku Batak merupakan satu dari sedikit komunitas suku asli di Nusantara yang telah berhasil mengembangkan sistem tulisan dan literasi mandiri sejak abad kuno, membuktikan tingginya peradaban intelektual mereka."
-            fullText="Aksara Batak atau yang sering diistilahkan sebagai 'Surat Batak' merupakan sistem penulisan silabis yang diturunkan dari aksara Brahmi kuno India. Tulisan ini diaplikasikan untuk mencatat naskah-naskah penting di atas media kulit kayu pohon alim yang dilipat sedemikian rupa, yang dinamakan Pustaha Laklak. Dokumen rahasia kuno ini berisi kumpulan catatan mendalam mengenai formula obat-obatan herbal tradisional, ilmu astronomi kuno untuk memprediksi hari baik dan buruk (Parhalaan), hukum adat dasar, hingga mantra-mantra spiritual religius. Keberadaan naskah beraksara asli ini menjadi bukti otentik bahwa pola pikir masyarakat Batak kuno sudah sangat maju, terdokumentasi, dan terstruktur dengan sangat rapi."
+            fullText="Aksara Batak atau yang sering diistilahkan sebagai 'Surat Batak' merupakan sistem penulisan silabis yang diturunkan dari aksara Brahmi kuno India. Tulisan ini diaplikasikan untuk mencatat naskah-naskah penting di atas media kulit kayu pohon alim yang dilipat sedemikian rupa, yang dinamakan Pustaha Laklak. Dokumen rahasia kuno ini berisi kumpulan catatan mendalam mengenai formula obat-obatan herbal tradisional, ilmu astronomi kuno untuk memprediksi hari baik dan buruk (Parhalaan), hukum adat dasar, hingga mantra-mantra spiritual religius. Keberadaan naskah beraksara asli ini menjadi bukti otentik bahwa pola pikir masyarakat Batak kuno sudah sangat maju, terdokumentasi, dan terstruktur dengan rapi."
             delay="0.6s"
+          />
+
+          <ContentBlock
+            imageSrc={ImgMakamSidabutar}
+            title="Makam Megalitikum Raja Sidabutar & Gerbang Tomok"
+            shortText="Di pesisir timur Pulau Samosir, desa Tomok berdiri sebagai salah satu saksi bisu tertua kekuasaan dinasti marga pemegang otoritas adat di pesisir Danau Toba."
+            fullText="Tomok terkenal dengan situs cagar budaya sarkofagus atau kuburan batu besar berumur lebih dari 450 tahun milik Raja Sidabutar, penguasa pertama tanah Tomok. Ukiran batu raksasa ini dibuat tanpa sambungan dari sebongkah batu utuh, menampilkan pahatan wajah menyeramkan untuk menolak bala serta ukiran tubuh ajudan setianya. Situs purbakala ini menjadi penanda kuat masa transisi peradaban kemasyarakatan Toba kuno sebelum masuknya pengaruh ajaran teologi barat ke pedalaman pulau."
+            delay="0.65s"
           />
 
           <ContentBlock
@@ -350,6 +370,22 @@ function Sejarah() {
             shortText="Memasuki awal abad ke-20 setelah runtuhnya pertahanan politik Toba, tatanan sosial keagamaan masyarakat Batak mengalami perubahan masif seiring meluasnya pengaruh dunia luar dan misi pengabaran injil."
             fullText="Kedatangan para misionaris Eropa, yang dipelopori secara signifikan oleh Dr. Ludwig Ingwer Nommensen asal Jerman, membuka gerbang baru bagi modernisasi masyarakat Batak Toba. Melalui pembangunan jaringan institusi pendidikan formal modern, fasilitas layanan kesehatan medis, serta peletakan fondasi organisasi keagamaan formal, masyarakat Batak bertransformasi dengan cepat menjadi kaum terpelajar. Bekal tingkat literasi pendidikan tinggi ini memicu gelombang urbanisasi besar-besaran (merantau) ke berbagai kota besar di Indonesia. Di era modern saat ini, diaspora masyarakat Batak telah memegang peran-peran vital di panggung nasional, mulai dari sektor hukum, pemerintahan, militer, hingga dunia industri kreatif global."
             delay="0.7s"
+          />
+
+          <ContentBlock
+            imageSrc={ImgBatuPersidangan}
+            title="Huta Siallagan & Sejarah Batu Persidangan Ambarita"
+            shortText="Huta Siallagan di Ambarita menyimpan lembaran sejarah sistem penegakan hukum pidana adat yang sangat ketat, radikal, dan disiplin tinggi pada masa kuno."
+            fullText="Situs purba ini dikelilingi pagar batu setinggi dua meter. Di bagian tengah perkampungan, terdapat susunan kursi dan meja batu berumur ratusan tahun yang disebut 'Batu Persidangan'. Tempat ini dulunya merupakan forum pengadilan resmi Raja Siallagan bersama para tetua adat untuk mengadili pelaku kejahatan berat seperti pembunuhan, pemerkosaan, atau mata-mata musuh. Pelaku yang terbukti bersalah secara hukum adat akan dieksekusi pancung langsung di tempat, sebuah penegasan hukum keras demi menjaga ketertiban moral masyarakat Toba di masa lampau."
+            delay="0.75s"
+          />
+
+          <ContentBlock
+            imageSrc={ImgLembahBakkara}
+            title="Lembah Bakkara & Pusat Dinasti Kerajaan Dinasti Toba"
+            shortText="Terjepit di antara tebing megah barat daya Danau Toba, Lembah Bakkara merupakan pusat administrasi sakral tempat lahirnya para keturunan Raja Sisingamangaraja."
+            fullText="Lembah Bakkara dialiri oleh sungai-sungai jernih yang langsung bermuara ke Danau Toba. Wilayah strategis ini menjadi pusat pemerintahan dinasti spiritual Sisingamangaraja I hingga XII selama berabad-abad. Di tempat ini pula terdapat situs sejarah 'Aek Sipangolu' (Air Kehidupan) yang disakralkan, serta jejak fondasi istana kayu yang menjadi saksi bisu bagaimana keputusan besar pertahanan perang Batak dirumuskan sebelum akhirnya luluh lantak akibat invasi militer kolonial Belanda."
+            delay="0.8s"
           />
         </div>
 
